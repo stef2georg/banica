@@ -27,10 +27,12 @@
 	</properties>
 
 	<distributionManagement>
-        	<repository>
-            		<id>github</id>
-        	</repository>
-    	</distributionManagement>
+	    <repository>
+	      <id>github</id>
+	      <name>GitHub Packages</name>
+	      <url>https://maven.pkg.github.com/stef2georg/banica</url>
+	    </repository>
+  	</distributionManagement>
 	
 	<dependencies>
 		<dependency>
