@@ -12,5 +12,11 @@
     <groupId>com.banica</groupId>
     <artifactId>market</artifactId>
 
-
+    <dependencies>
+        <dependency>
+            <groupId>com.banica</groupId>
+            <artifactId>messages</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
 </project>
