@@ -30,9 +30,6 @@ jobs:
         GITHUB_TOKEN: ${{ github.token }}
 
     - name: Deploy Aurora to Heroku
-        run: |
-          cd aurora
-          mvn heroku:deploy-only
-          cd ..
+        run: cd aurora | mvn heroku:deploy-only | cd ..
         env:
           HEROKU_API_KEY: ${{ secrets.HEROKU_API_KEY }}
