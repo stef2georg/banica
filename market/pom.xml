@@ -5,7 +5,7 @@
     <parent>
         <artifactId>banica</artifactId>
         <groupId>com</groupId>
-        <version>0.0.1-SNAPSHOT</version>
+        <version>latest.integration</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
@@ -16,7 +16,7 @@
         <dependency>
             <groupId>com.banica</groupId>
             <artifactId>messages</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
+            <version>latest.integration</version>
         </dependency>
     </dependencies>
 </project>
