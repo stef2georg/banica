@@ -18,7 +18,7 @@
     </parent>
     <groupId>com</groupId>
     <artifactId>banica</artifactId>
-    <version>latest.integration</version>
+    <version>0.0.1-SNAPSHOT</version>
     <name>banica</name>
     <description>Banica</description>
 
