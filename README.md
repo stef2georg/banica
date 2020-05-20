@@ -1,9 +1,7 @@
 # Hot Banica
 ![Build and Publish](https://github.com/stef2georg/banica/workflows/Build%20and%20Publish/badge.svg)
-![Deploy to Heroku](https://github.com/stef2georg/banica/workflows/Deploy%20to%20Heroku/badge.svg)
 
 https://help.github.com/en/packages/using-github-packages-with-your-projects-ecosystem/configuring-apache-maven-for-use-with-github-packages
-https://elements.heroku.com/buildpacks/heroku/heroku-maven-plugin
 
 ```<!-- Maven setting file. It should be located in ~/.m2. -->
 <settings xmlns="http://maven.apache.org/SETTINGS/1.0.0"

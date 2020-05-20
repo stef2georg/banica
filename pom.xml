@@ -75,26 +75,4 @@
             <scope>provided</scope>
         </dependency>
     </dependencies>
-
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>com.heroku.sdk</groupId>
-                <artifactId>heroku-maven-plugin</artifactId>
-                <version>3.0.2</version>
-                <configuration>
-                    <appName>${project.parent.artifactId}-${project.artifactId}</appName>
-                    <jdkVersion>14</jdkVersion>
-                    <processTypes>
-                        <web>java -Dspring.profiles.active=heroku -Dgrpc.server.port=$PORT -jar target/${project.artifactId}-${project.version}.jar</web>
-                    </processTypes>
-                    <includeTarget>false</includeTarget>
-                    <includes>
-                        <include>target/${project.artifactId}-${project.version}.jar</include>
-                    </includes>
-                </configuration>
-            </plugin>
-        </plugins>
-    </build>
-
 </project>
