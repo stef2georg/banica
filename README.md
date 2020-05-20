@@ -1,4 +1,7 @@
 # Hot Banica
+![Build and Publish](https://github.com/stef2georg/banica/workflows/Build%20and%20Publish/badge.svg)
+![Deploy to Heroku](https://github.com/stef2georg/banica/workflows/Deploy%20to%20Heroku/badge.svg)
+
 https://help.github.com/en/packages/using-github-packages-with-your-projects-ecosystem/configuring-apache-maven-for-use-with-github-packages
 https://elements.heroku.com/buildpacks/heroku/heroku-maven-plugin
 
@@ -24,7 +27,7 @@ https://elements.heroku.com/buildpacks/heroku/heroku-maven-plugin
           <id>github</id>
           <name>GitHub OWNER Apache Maven Packages</name>
           <url>https://maven.pkg.github.com/stef2georg/banica</url>
-	      <snapshots><enabled>true</enabled></snapshots>
+          <snapshots><enabled>true</enabled></snapshots>
         </repository>
       </repositories>
     </profile>
