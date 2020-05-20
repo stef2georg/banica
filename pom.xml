@@ -9,6 +9,7 @@
         <module>orderbook</module>
         <module>calculator</module>
         <module>messages</module>
+        <module>common</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -85,7 +86,7 @@
                     <appName>${project.parent.artifactId}-${project.artifactId}</appName>
                     <jdkVersion>14</jdkVersion>
                     <processTypes>
-                        <web>java -jar target/${project.artifactId}-${project.version}.jar</web>
+                        <web>java -Dspring.profiles.active=heroku -jar target/${project.artifactId}-${project.version}.jar</web>
                     </processTypes>
                     <includeTarget>false</includeTarget>
                     <includes>
