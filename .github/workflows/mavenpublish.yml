@@ -26,6 +26,11 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ github.token }}
 
+    - name: Deploy Market to Heroku
+      run: cd market && mvn heroku:deploy-only
+      env:
+        HEROKU_API_KEY: ${{ secrets.HEROKU_API_KEY }}
+
     - name: Deploy Aurora to Heroku
       run: cd aurora && mvn heroku:deploy-only
       env:
@@ -33,11 +38,6 @@ jobs:
 
     - name: Deploy Calculator to Heroku
       run: cd calculator && mvn heroku:deploy-only
-      env:
-        HEROKU_API_KEY: ${{ secrets.HEROKU_API_KEY }}
-
-    - name: Deploy Market to Heroku
-      run: cd market && mvn heroku:deploy-only
       env:
         HEROKU_API_KEY: ${{ secrets.HEROKU_API_KEY }}
 

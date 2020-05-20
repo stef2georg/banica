@@ -86,7 +86,7 @@
                     <appName>${project.parent.artifactId}-${project.artifactId}</appName>
                     <jdkVersion>14</jdkVersion>
                     <processTypes>
-                        <web>java -Dspring.profiles.active=heroku -jar target/${project.artifactId}-${project.version}.jar</web>
+                        <web>java -Dspring.profiles.active=heroku -Dgrpc.server.port=$PORT -jar target/${project.artifactId}-${project.version}.jar</web>
                     </processTypes>
                     <includeTarget>false</includeTarget>
                     <includes>
