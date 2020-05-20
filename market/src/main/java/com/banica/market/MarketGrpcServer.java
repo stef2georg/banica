@@ -1,6 +1,6 @@
 package com.banica.market;
 
-import com.banica.messages.Pong;
+import com.banica.messages.MessagesApplication;
 import io.grpc.Server;
 import io.grpc.netty.shaded.io.grpc.netty.NettyServerBuilder;
 import org.slf4j.Logger;
@@ -17,8 +17,8 @@ public class MarketGrpcServer {
 
     @PostConstruct
     public void setup() throws IOException {
-        Pong pong = Pong.newBuilder().setId(26).build();
-        LOGGER.info("gRPC server started with pong!");
+        MessagesApplication messagesApplication = new MessagesApplication();
+        LOGGER.info("gRPC server started!");
         Server server = NettyServerBuilder.forPort(8080).build();
         server.start();
     }
