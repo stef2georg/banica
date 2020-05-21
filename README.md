@@ -1,6 +1,9 @@
 # Hot Banica
 ![Build and Publish](https://github.com/stef2georg/banica/workflows/Build%20and%20Publish/badge.svg)
 [![codecov](https://codecov.io/gh/stef2georg/banica/branch/master/graph/badge.svg)](https://codecov.io/gh/stef2georg/banica)
+[![Total alerts](https://img.shields.io/lgtm/alerts/g/stef2georg/banica.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/stef2georg/banica/alerts/)
+[![Language grade: Java](https://img.shields.io/lgtm/grade/java/g/stef2georg/banica.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/stef2georg/banica/context:java)
+[![Language grade: Java](https://img.shields.io/lgtm/grade/java/g/stef2georg/banica.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/stef2georg/banica/context:java)
 
 https://help.github.com/en/packages/using-github-packages-with-your-projects-ecosystem/configuring-apache-maven-for-use-with-github-packages
 
