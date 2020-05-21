@@ -27,3 +27,6 @@ jobs:
         run: mvn deploy -s $GITHUB_WORKSPACE/settings.xml
         env:
           GITHUB_TOKEN: ${{ github.token }}
+           
+      - name: Send code coverage report to Codecove
+        run: bash <(curl -s https://codecov.io/bash)
