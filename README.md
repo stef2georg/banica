@@ -1,4 +1,4 @@
-# Hot Banica
+# Banica
 ![Build and Publish](https://github.com/stef2georg/banica/workflows/Build%20and%20Publish/badge.svg)
 [![codecov](https://codecov.io/gh/stef2georg/banica/branch/master/graph/badge.svg)](https://codecov.io/gh/stef2georg/banica)
 [![Total alerts](https://img.shields.io/lgtm/alerts/g/stef2georg/banica.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/stef2georg/banica/alerts/)
